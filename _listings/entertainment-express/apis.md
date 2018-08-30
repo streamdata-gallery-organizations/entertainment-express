@@ -14,8 +14,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Entertainment Express
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-30"
+modified: "2018-08-30"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/entertainment-express/master/_listings/entertainment-express/apis.md
 specificationVersion: "0.14"
 apis:
@@ -672,6 +672,60 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/entertainment-express/master/_listings/entertainment-express/gowatchitshowsidavailabilities-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/entertainment-express/master/_listings/entertainment-express/gowatchitshowsidavailabilities-get-openapi.md
+- name: Entertainment Express - Returns a list of batch image responses links based
+    on filepath.
+  x-api-slug: imagesbatch-post
+  description: Requires a list filepath.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/IVA-logo.png
+  humanURL: https://www.internetvideoarchive.com/
+  baseURL: https://ee.iva-api.com//
+  tags: Celebrities, Movies, General Data, Televisions, Videos
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/entertainment-express/master/_listings/entertainment-express/imagesbatch-post-openapi.md
+- name: Entertainment Express - Returns a list of screen capture responses.
+  x-api-slug: imagesscreencapturesbatch-post
+  description: Requires a list of filepaths.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/IVA-logo.png
+  humanURL: https://www.internetvideoarchive.com/
+  baseURL: https://ee.iva-api.com//
+  tags: Celebrities, Movies, General Data, Televisions, Videos
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/entertainment-express/master/_listings/entertainment-express/imagesscreencapturesbatch-post-openapi.md
+- name: Entertainment Express - Redirect to a screen capture based on filepath.
+  x-api-slug: imagesscreencapturesredirect-get
+  description: "Requires a valid filepath of a video asset screen capture.  \n\n`Note:
+    The swagger U/I does not support redirects.`"
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/IVA-logo.png
+  humanURL: https://www.internetvideoarchive.com/
+  baseURL: https://ee.iva-api.com//
+  tags: Celebrities, Movies, General Data, Televisions, Videos
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/entertainment-express/master/_listings/entertainment-express/imagesscreencapturesredirect-get-openapi.md
+- name: Entertainment Express - Redirect to an image based on filepath.
+  x-api-slug: imagesfilepathredirect-get
+  description: "Images should be downloaded and stored on the client server. Use /Common/ImageTypes
+    to see a list of available image types.  \n\n\n`Note: The swagger U/I does not
+    support redirects.`"
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/IVA-logo.png
+  humanURL: https://www.internetvideoarchive.com/
+  baseURL: https://ee.iva-api.com//
+  tags: Celebrities, Movies, General Data, Televisions, Videos
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/entertainment-express/master/_listings/entertainment-express/imagesfilepathredirect-get-openapi.md
+- name: Entertainment Express - Get Metacritic Movie information.
+  x-api-slug: metacriticmovieid-get
+  description: Returns Metacritic Movie information by Entertainment Movie ID.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/IVA-logo.png
+  humanURL: https://www.internetvideoarchive.com/
+  baseURL: https://ee.iva-api.com//
+  tags: Celebrities, Movies, General Data, Televisions, Videos
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/entertainment-express/master/_listings/entertainment-express/metacriticmovieid-get-openapi.md
 - name: Entertainment Express - Get Metacritic TV information.
   x-api-slug: metacritictvid-get
   description: Returns Metacritic TV information by Entertainment Show ID.
@@ -684,6 +738,225 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/entertainment-express/master/_listings/entertainment-express/metacritictvid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/entertainment-express/master/_listings/entertainment-express/metacritictvid-get-openapi.md
+- name: Entertainment Express - Get MovieTickets Cultures.
+  x-api-slug: movieticketscultures-get
+  description: Returns MovieTickets Cultures.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/IVA-logo.png
+  humanURL: https://www.internetvideoarchive.com/
+  baseURL: https://ee.iva-api.com//
+  tags: Celebrities, Movies, General Data, Televisions, Videos
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/entertainment-express/master/_listings/entertainment-express/movieticketscultures-get-openapi.md
+- name: Entertainment Express - Get MovieTickets Movies releasing soon.
+  x-api-slug: movieticketsmoviescomingsoon-get
+  description: Returns MovieTickets Movies releasing soon.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/IVA-logo.png
+  humanURL: https://www.internetvideoarchive.com/
+  baseURL: https://ee.iva-api.com//
+  tags: Celebrities, Movies, General Data, Televisions, Videos
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/entertainment-express/master/_listings/entertainment-express/movieticketsmoviescomingsoon-get-openapi.md
+- name: Entertainment Express - Get MovieTickets Movies in theaters.
+  x-api-slug: movieticketsmoviesnowplaying-get
+  description: Returns MovieTickets Movies currently in theaters.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/IVA-logo.png
+  humanURL: https://www.internetvideoarchive.com/
+  baseURL: https://ee.iva-api.com//
+  tags: Celebrities, Movies, General Data, Televisions, Videos
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/entertainment-express/master/_listings/entertainment-express/movieticketsmoviesnowplaying-get-openapi.md
+- name: Entertainment Express - Get MovieTickets Performances.
+  x-api-slug: movieticketsperformances-get
+  description: Returns MovieTickets Performances by MovieTickets Theater ID, Entertainment
+    Movie ID, and ScheduleDate.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/IVA-logo.png
+  humanURL: https://www.internetvideoarchive.com/
+  baseURL: https://ee.iva-api.com//
+  tags: Celebrities, Movies, General Data, Televisions, Videos
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/entertainment-express/master/_listings/entertainment-express/movieticketsperformances-get-openapi.md
+- name: Entertainment Express - Get MovieTickets Theaters.
+  x-api-slug: movieticketstheaters-get
+  description: Returns MovieTickets Theaters by postal code.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/IVA-logo.png
+  humanURL: https://www.internetvideoarchive.com/
+  baseURL: https://ee.iva-api.com//
+  tags: Celebrities, Movies, General Data, Televisions, Videos
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/entertainment-express/master/_listings/entertainment-express/movieticketstheaters-get-openapi.md
+- name: Entertainment Express - Returns a paged list of all movies.
+  x-api-slug: moviesall-get
+  description: "By default the API will only return basic title information. Additional
+    objects can be included by passing the object in the Includes parameter.   \n\n\n`Subscriptions
+    with \"Limited\" data will only be able to include basic title information and
+    Videos.`"
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/IVA-logo.png
+  humanURL: https://www.internetvideoarchive.com/
+  baseURL: https://ee.iva-api.com//
+  tags: Celebrities, Movies, General Data, Televisions, Videos
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/entertainment-express/master/_listings/entertainment-express/moviesall-get-openapi.md
+- name: Entertainment Express - Returns all MovieAlternateIdTypes.
+  x-api-slug: moviesalternateidtypes-get
+  description: "Movie alternate ID types refer to 3rd party IDs that IVA matches its
+    own movie IDs.  **EX: IMDB, TMDB**.  \n\n`Use to get the Id of the ID type to
+    use with /Find/Movie.`"
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/IVA-logo.png
+  humanURL: https://www.internetvideoarchive.com/
+  baseURL: https://ee.iva-api.com//
+  tags: Celebrities, Movies, General Data, Televisions, Videos
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/entertainment-express/master/_listings/entertainment-express/moviesalternateidtypes-get-openapi.md
+- name: Entertainment Express - Returns list of all Movies coming to US Theaters.
+  x-api-slug: moviescomingsoon-get
+  description: |-
+    Requires Skip and Take. Maximum page size is 10.
+
+    By default the API will only return basic title information.
+    Additional objects can be included by passing the object in the Includes parameter in a comma separated list.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/IVA-logo.png
+  humanURL: https://www.internetvideoarchive.com/
+  baseURL: https://ee.iva-api.com//
+  tags: Celebrities, Movies, General Data, Televisions, Videos
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/entertainment-express/master/_listings/entertainment-express/moviescomingsoon-get-openapi.md
+- name: Entertainment Express - Returns list of all Movies currently in US Theaters.
+  x-api-slug: moviesintheaters-get
+  description: |-
+    Requires Skip and Take. Maximum page size is 10.
+
+    By default the API will only return basic title information.
+    Additional objects can be included by passing the object in the Includes parameter in a comma separated list.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/IVA-logo.png
+  humanURL: https://www.internetvideoarchive.com/
+  baseURL: https://ee.iva-api.com//
+  tags: Celebrities, Movies, General Data, Televisions, Videos
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/entertainment-express/master/_listings/entertainment-express/moviesintheaters-get-openapi.md
+- name: Entertainment Express - Perform a match to Entertainment using Title, Year,
+    Cast and Director. Returns best match and score for the match.
+  x-api-slug: moviesmatch-get
+  description: Use to match IVA movie data to another data source using title, year,
+    cast etc.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/IVA-logo.png
+  humanURL: https://www.internetvideoarchive.com/
+  baseURL: https://ee.iva-api.com//
+  tags: Celebrities, Movies, General Data, Televisions, Videos
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/entertainment-express/master/_listings/entertainment-express/moviesmatch-get-openapi.md
+- name: Entertainment Express - Returns all Movie Certifications
+  x-api-slug: moviesmoviecertifications-get
+  description: Returns all Movie Certifications used in a movie response with the
+    Releases object.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/IVA-logo.png
+  humanURL: https://www.internetvideoarchive.com/
+  baseURL: https://ee.iva-api.com//
+  tags: Celebrities, Movies, General Data, Televisions, Videos
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/entertainment-express/master/_listings/entertainment-express/moviesmoviecertifications-get-openapi.md
+- name: Entertainment Express - Returns all Movie Genres.
+  x-api-slug: moviesmoviegenres-get
+  description: List of all movie genres used in the API.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/IVA-logo.png
+  humanURL: https://www.internetvideoarchive.com/
+  baseURL: https://ee.iva-api.com//
+  tags: Celebrities, Movies, General Data, Televisions, Videos
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/entertainment-express/master/_listings/entertainment-express/moviesmoviegenres-get-openapi.md
+- name: Entertainment Express - Returns all Movie ReleaseTypes
+  x-api-slug: moviesreleasetypes-get
+  description: 'Release type refers to the release. **EX: Theatrical, Home Video,
+    etc.**'
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/IVA-logo.png
+  humanURL: https://www.internetvideoarchive.com/
+  baseURL: https://ee.iva-api.com//
+  tags: Celebrities, Movies, General Data, Televisions, Videos
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/entertainment-express/master/_listings/entertainment-express/moviesreleasetypes-get-openapi.md
+- name: Entertainment Express - Search and discover movies.
+  x-api-slug: moviessearchanddiscover-get
+  description: |-
+    Searchable Fields:
+    Title, AlternateTitles, Genres, OriginalReleaseDate, UnitedStatesReleaseDate, GermanyReleaseDate, FranceReleaseDate, UnitedKingdomReleaseDate, ItalyReleaseDate, JapanReleaseDate, Tags, Cast, Directors, Descriptions, Ratings, OriginalLanguage.
+    [Syntax Ref](https://docs.microsoft.com/en-us/rest/api/searchservice/simple-query-syntax-in-azure-search)
+
+    Filterable Fields:
+    ID, Title, AlternateTitles, Genres, OriginalReleaseDate, UnitedStatesReleaseDate, GermanyReleaseDate, FranceReleaseDate, UnitedKingdomReleaseDate, ItalyReleaseDate, JapanReleaseDate, Year, Tags, Cast, Directors, Descriptions, HasVideo, PosterFilePath, Ratings, OriginalLanguage, Runtime, Budget, Revenue, Created, Modified.
+    [Syntax Ref](https://docs.microsoft.com/en-us/rest/api/searchservice/odata-expression-syntax-for-azure-search)
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/IVA-logo.png
+  humanURL: https://www.internetvideoarchive.com/
+  baseURL: https://ee.iva-api.com//
+  tags: Celebrities, Movies, General Data, Televisions, Videos
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/entertainment-express/master/_listings/entertainment-express/moviessearchanddiscover-get-openapi.md
+- name: Entertainment Express - Returns movie data for a specific IVA MovieId.
+  x-api-slug: moviesid-get
+  description: "By default the API will only return basic title information. Additional
+    objects can be included by passing the object in the Includes parameter.   \n\n\n`Subscriptions
+    with \"Limited\" data will only be able to include basic title information and
+    Videos.`"
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/IVA-logo.png
+  humanURL: https://www.internetvideoarchive.com/
+  baseURL: https://ee.iva-api.com//
+  tags: Celebrities, Movies, General Data, Televisions, Videos
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/entertainment-express/master/_listings/entertainment-express/moviesid-get-openapi.md
+- name: Entertainment Express - Gets all People.
+  x-api-slug: peopleall-get
+  description: Returns a AllPeopleResponse object containing a list of all poeple.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/IVA-logo.png
+  humanURL: https://www.internetvideoarchive.com/
+  baseURL: https://ee.iva-api.com//
+  tags: Celebrities, Movies, General Data, Televisions, Videos
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/entertainment-express/master/_listings/entertainment-express/peopleall-get-openapi.md
+- name: Entertainment Express - Find Person by Name ordered by rank.
+  x-api-slug: peoplerankedsearch-get
+  description: Find person using name ordered by rank.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/IVA-logo.png
+  humanURL: https://www.internetvideoarchive.com/
+  baseURL: https://ee.iva-api.com//
+  tags: Celebrities, Movies, General Data, Televisions, Videos
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/entertainment-express/master/_listings/entertainment-express/peoplerankedsearch-get-openapi.md
+- name: Entertainment Express - Returns information on a person.
+  x-api-slug: peopleid-get
+  description: BETA - By default the API will only return basic People information.
+    Additional objects can be included by passing the object in the Includes parameter.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/IVA-logo.png
+  humanURL: https://www.internetvideoarchive.com/
+  baseURL: https://ee.iva-api.com//
+  tags: Celebrities, Movies, General Data, Televisions, Videos
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/entertainment-express/master/_listings/entertainment-express/peopleid-get-openapi.md
+- name: Entertainment Express - Get a Person's Filmography.
+  x-api-slug: peopleidfilmography-get
+  description: Requires a valid Person ID.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/IVA-logo.png
+  humanURL: https://www.internetvideoarchive.com/
+  baseURL: https://ee.iva-api.com//
+  tags: Celebrities, Movies, General Data, Televisions, Videos
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/entertainment-express/master/_listings/entertainment-express/peopleidfilmography-get-openapi.md
 - name: Entertainment Express - Returns a zip file of client SDK.
   x-api-slug: sdksclient-get
   description: Generate and download SDK's for using the API.  Requires a subscription
@@ -883,6 +1156,31 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/entertainment-express/master/_listings/entertainment-express/showsidseasonsseasonnumberepisodesepisodenumber-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/entertainment-express/master/_listings/entertainment-express/showsidseasonsseasonnumberepisodesepisodenumber-get-openapi.md
+- name: Entertainment Express - Returns translated time from IVA or an error if invalid.
+  x-api-slug: teststestdatetime-get
+  description: Entertainment Express APIs use date time format ISO 8601.  Use this
+    API to test your date time format to see if it translates to a valid time on our
+    server.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/IVA-logo.png
+  humanURL: https://www.internetvideoarchive.com/
+  baseURL: https://ee.iva-api.com//
+  tags: Celebrities, Movies, General Data, Televisions, Videos
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/entertainment-express/master/_listings/entertainment-express/teststestdatetime-get-openapi.md
+- name: Entertainment Express - Returns list of all US Theatrical Movie objects.
+  x-api-slug: theatricalmovies-get
+  description: 'Deprecated. Use /Movies/InTheaters or /Movies/ComingSoon instead.
+    Returns all movies with a US Theatrical Release Date > today - 60 days.  Use the
+    includes parameter to include additional objects related to the movie.  The includes
+    parameter takes a comma separated list of objects.  **EX: Genres,Descriptions,Videos**'
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/IVA-logo.png
+  humanURL: https://www.internetvideoarchive.com/
+  baseURL: https://ee.iva-api.com//
+  tags: Celebrities, Movies, General Data, Televisions, Videos
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/entertainment-express/master/_listings/entertainment-express/theatricalmovies-get-openapi.md
 - name: 'Entertainment Express - '
   x-api-slug: tvmediagenresmovies-get
   description: Gets list of movie genres.
@@ -1162,6 +1460,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/entertainment-express/master/_listings/entertainment-express/videosgetvideoid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/entertainment-express/master/_listings/entertainment-express/videosgetvideoid-get-openapi.md
+- name: Entertainment Express - Returns a list of recommendations from XRoadMedia
+    for a movie or show.
+  x-api-slug: xroadmediarecommendations-get
+  description: Get recommendations for movie or show.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/IVA-logo.png
+  humanURL: https://www.internetvideoarchive.com/
+  baseURL: https://ee.iva-api.com//
+  tags: Celebrities, Movies, General Data, Televisions, Videos
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/entertainment-express/master/_listings/entertainment-express/xroadmediarecommendations-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://emuseum.api.docs.api.gallery.streamdata.io
